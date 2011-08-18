@@ -12,11 +12,14 @@ Installation
 How to Use
 ------------
 
-Normal: => Fail message + Execution time
+###Normal: => Fail message + Execution time
+
     spec -r "file-path/progress-formatter" -f Progress */*.rb
 
-Fail list only:
+###Fail list only:
+
     spec -r "file-path/progress-formatter" -f OnlyFail */*.rb
 
-Execution time only:
+###Execution time only:
+
     spec -r "file-path/progress-formatter" -f OnlyTime */*.rb
