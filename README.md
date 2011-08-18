@@ -16,10 +16,10 @@ How to Use
 
     spec -r "file-path/progress-formatter" -f Progress */*.rb
 
-###Fail list only:
+###Only Fail list:
 
     spec -r "file-path/progress-formatter" -f OnlyFail */*.rb
 
-###Execution time only:
+###Only Execution time:
 
     spec -r "file-path/progress-formatter" -f OnlyTime */*.rb
